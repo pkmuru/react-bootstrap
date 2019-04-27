@@ -1,0 +1,8 @@
+@import "variables";
+@import "Common";
+
+.User-info {
+  margin-top: 12px;
+  @extend .rounted-panel;
+
+}

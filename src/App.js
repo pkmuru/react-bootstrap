@@ -1,31 +1,25 @@
 import React from 'react';
-import './theme/app.scss';
+import SearchPanel from './SearchPanel';
+import UserInfo from './UserInfo';
+import Settings from './Settings';
+
+import './theme/App.scss';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
+                <div className="title">
+                    <span>App</span>
+                    <span>Admin Console</span></div>
             </header>
-            <div className="App-body">
 
-                <input className="form-control"></input>
-                <button type="button" className="btn btn-secondary">Primary</button>
 
+            <div className="App-Body">
+                <SearchPanel/>
+                <UserInfo/>
+                <Settings/>
             </div>
-
-
         </div>
     );
 }

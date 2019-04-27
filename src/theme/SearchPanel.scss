@@ -1,0 +1,20 @@
+@import "variables";
+@import "Common";
+
+.search-header {
+  @extend .rounted-panel;
+
+  .search-input {
+    display: flex;
+    flex-flow: row;
+
+    .btn {
+      margin-left: 10px;
+    }
+    /*
+        & > * {
+          margin: 10px 10px 10px 10px;
+        }*/
+  }
+
+}

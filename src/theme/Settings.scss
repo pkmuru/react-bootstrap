@@ -1,0 +1,12 @@
+@import "variables";
+@import "Common";
+
+.Settings {
+  @extend .rounted-panel;
+  margin-top: 12px;
+
+  & > * {
+    margin: 10px 10px 10px 10px;
+  }
+
+}

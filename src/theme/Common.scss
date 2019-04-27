@@ -1,0 +1,8 @@
+@import "variables";
+
+.rounted-panel {
+  @extend .bg-white;
+  @extend .rounded ;
+  @extend .shadow-sm;
+  padding: 12px;
+}
